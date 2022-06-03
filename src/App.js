@@ -1,4 +1,5 @@
 import {Component} from "react";
+import Header from "./components/Header";
 import RouterApp from "./router";
 
 class App extends Component {
@@ -7,7 +8,12 @@ class App extends Component {
   }
 
   render() {
-    return ( <RouterApp />);
+    return ( 
+      <>
+        <Header />
+        <RouterApp />
+      </>
+    );
   }
 }
 

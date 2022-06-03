@@ -1,0 +1,28 @@
+html{
+    background-color: #d4d4d4;
+    font-family: 'Roboto';
+}
+
+body {
+    margin: 0;
+}
+
+.white-box {
+    background-color: #ffffff;
+    box-shadow: 0 1px 10px #8a8a8a;
+    display: flex;
+    min-width:10px;
+    min-height:10px;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.btn-primary-button {
+    height: 35px;
+    background-color: #0f3a96;
+    color: #ffffff;
+    font-weight: 400;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
