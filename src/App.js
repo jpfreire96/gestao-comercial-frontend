@@ -1,11 +1,13 @@
-import React, {Component} from "react";
+import {Component} from "react";
+import RouterApp from "./router";
+
 class App extends Component {
   constructor(props) {
     super(props);
   }
 
   render() {
-    return ( <div>teste</div>);
+    return ( <RouterApp />);
   }
 }
 
